@@ -1,0 +1,32 @@
+{
+  "name": "culture",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server/server",
+    "server": "nodemon server/server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^7.6.0",
+    "bcrypt": "^5.0.1",
+    "concurrently": "^6.5.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "create-react-app": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "express-validation": "^3.0.8",
+    "googleapis": "^92.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.1.4",
+    "nodemailer": "^6.7.2",
+    "nodemon": "^2.0.15",
+    "recharts": "^2.1.8"
+  }
+}
